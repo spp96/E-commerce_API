@@ -5,11 +5,11 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.masai.model.Cart;
+import com.masai.model.Payment;
 
 @Repository
-public interface CartRepository extends JpaRepository<Cart, Integer>{
-
-	List<Cart> findByUserId(Integer userId);
+public interface PaymentRepository extends JpaRepository<Payment, Integer>{
+	
+	public List<Payment> findByUserId(Integer Id);
 
 }

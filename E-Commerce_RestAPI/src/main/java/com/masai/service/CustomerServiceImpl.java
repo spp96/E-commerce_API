@@ -113,10 +113,10 @@ public class CustomerServiceImpl implements CustomerServices{
 				cart.setProductMarketPrice(product.getProductMarketPrice());
 				cart.setProductSellingPrice(product.getProductSellingPrice());
 				cart.setCategoryName(product.getCategory().getCategoryName());
+//				cart.setUserId(activeSession.getUserId());
 				productRepo.save(product);
 				cartRepo.save(cart);		
-				return cart;	
-		
+				return cart;			
 	}
 
 }

@@ -1,11 +1,7 @@
 package com.masai.model;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import javax.persistence.*;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -27,4 +23,5 @@ public class Cart {
 	private Double productMarketPrice;
 	private Double productSellingPrice;
 	private String categoryName;
+	private Integer userId;
 }

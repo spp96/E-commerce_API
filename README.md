@@ -6,9 +6,12 @@ A backend system for an online shopping application with APIs for all relevant f
 ## Tech Stack and Tools:
 
 * Java
+* Maven
 * Spring Framework
+* Hibernate
 * Spring Boot
 * Spring Data JPA
+* Lombok
 * MySQL
 * Postman
 * Swagger

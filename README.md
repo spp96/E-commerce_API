@@ -37,12 +37,6 @@ This project has following controllers:
 ### 🚀 Admin AuthController Features -
 - Admin Login
 - Admin Logout
-- Add an admin
-- Update admin details
-- Get all customer details
-- Get all products 
-- add new product
-- update product
 
 ### 🚀 Admin Controller Features -
 - Add an admin

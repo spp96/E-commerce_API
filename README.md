@@ -61,6 +61,83 @@ This project has following controllers:
 ### 🚀 Payment Controller Feature -
 - Check payment status
 
+## Understanding from project
+
+- Gain excessive knowledge on application of Java, MySQL and springboot.
+- Gain knowledge on creating and using API.
+- Understanding of business requirement
+- Enjoyed the process of learning and creating the application along with the team.
+
+### 🚀 Overview of Application
+
+## List of Controllers -
+
+- ## **Admin AuthController** 
+![Screenshot (202)](https://user-images.githubusercontent.com/102204260/224469956-40a45fdd-d797-4c88-9bda-39cd5c48b403.png)
+
+- ## **Admin Controller**
+![Screenshot (203)](https://user-images.githubusercontent.com/102204260/224470040-de96b590-af23-4045-8dd8-014a4eff3867.png)
+
+- ## **Customer AuthController** 
+![Screenshot (204)](https://user-images.githubusercontent.com/102204260/224470081-ab11748f-9577-41b4-9d81-570d8992b293.png)
+
+- ## **Customer Controller**
+![Screenshot (205)](https://user-images.githubusercontent.com/102204260/224470141-e5811672-3dcf-4d19-902a-b4203cf3f67c.png)
+
+- ## **Payment Controller**
+![Screenshot (206)](https://user-images.githubusercontent.com/102204260/224470171-1a2d1e5a-ed1c-4701-9109-c0b94bb070f9.png)
+
+## Step by step flow -
+- ## **First Register Admin**
+
+![Screenshot (207)](https://user-images.githubusercontent.com/102204260/224470542-5221ee39-25a2-4ac3-af70-6beeb6bda3ae.png)
+
+![Screenshot (208)](https://user-images.githubusercontent.com/102204260/224470550-3e6a6b08-d809-44db-a675-1e227615e5e4.png)
+
+- ## **Login as Admin and you will get one uuid**
+
+![Screenshot (209)](https://user-images.githubusercontent.com/102204260/224470834-886626de-da41-4955-9dd9-dfefb18884a8.png)
+
+![Screenshot (210)](https://user-images.githubusercontent.com/102204260/224470840-b9301c0f-e053-4678-8218-c7a8639133c0.png)
+
+- ## **Add product by the help of uuid**
+- Note :- Only Admin can able to add, update product detalis
+
+![Screenshot (211)](https://user-images.githubusercontent.com/102204260/224471119-e7b41bf8-a52a-4a79-a387-87ddc5414dab.png)
+
+![Screenshot (212)](https://user-images.githubusercontent.com/102204260/224471147-6e7a7102-e9b0-45bd-9d5a-aae2fcf5bf71.png)
+
+- ## **Register Customer**
+
+![Screenshot (213)](https://user-images.githubusercontent.com/102204260/224471415-cac1d196-0012-481b-9d5f-8823eeb601ea.png)
+
+![Screenshot (214)](https://user-images.githubusercontent.com/102204260/224471423-876983ec-5bc1-46a6-a35e-97b4c26e000c.png)
+
+- ## **Login as Customer to purchase product**
+
+![Screenshot (215)](https://user-images.githubusercontent.com/102204260/224471545-bc764d9b-1d63-46a1-b940-d40caa467e62.png)
+
+![Screenshot (216)](https://user-images.githubusercontent.com/102204260/224471554-0b3aab43-d2a9-4ebf-98c4-02754b7b1d0a.png)
+
+- ## **Add product to the cart**
+- Note :- as you can see in below image their are 2 uuid one is for admin and another is for customer but here only user can able to add product to cart if admin try     it then application will through exception (see below image for better understanding)
+
+![Screenshot (216)](https://user-images.githubusercontent.com/102204260/224471737-bd534b9e-e2db-41a8-9f32-1eccaf81df44.png)
+
+![Screenshot (217)](https://user-images.githubusercontent.com/102204260/224471919-8ab1d10b-30e2-453f-9d9b-39346b83c771.png)
+
+- Note :- to add product in cart use customer uuid as key
+
+![Screenshot (218)](https://user-images.githubusercontent.com/102204260/224472068-38afbde4-4d02-4a0e-9b69-2b0e98cd4b39.png)
+
+![Screenshot (219)](https://user-images.githubusercontent.com/102204260/224472083-938104ef-974d-47d9-b593-c938d5c4efe4.png)
+
+- ## **Check your payment status**
+
+![Screenshot (220)](https://user-images.githubusercontent.com/102204260/224472218-27d3d170-55bc-4c1d-b49d-5cde5ed77519.png)
+
+![Screenshot (221)](https://user-images.githubusercontent.com/102204260/224472224-08011774-372d-4350-bb62-acc1c8b98f06.png)
+
 
 ## Installation & Run -
 
